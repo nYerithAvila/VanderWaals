@@ -1,5 +1,17 @@
 ## El equipo *Van der Waals* te da la bienvenida
 # Integrantes
+<img align="left" height="200" src="https://th.bing.com/th/id/R.3498a697daacd36a022374e953ffa2c8?rik=N40gucyWR2VIPg&riu=http%3a%2f%2fcneer.ier.unam.mx%2fassets%2fimages%2fandy-1-695x1043.jpeg&ehk=yyTue6Up62Phi0rhxtWQRxzRWP4wxflE0a8IMnPGPFE%3d&risl=&pid=ImgRaw&r=0"  />
+
+###
+
+<h4 align="left">Andrea Amador</h4>
+
+###
+
+<p align="left">Ingeniera en Energias Renovables, una chica super linda, inteligente y empatica aaaaaaaa la persona más iconica del mundo</p>
+[@ampea-cloud](https://github.com/ampea-cloud)
+
+###
 - Andrea Amador [@ampea-cloud](https://github.com/ampea-cloud)
 
 - Germán Erreguín [@errage](https://github.com/errage)
