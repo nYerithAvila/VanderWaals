@@ -30,3 +30,6 @@ Los metadatos se encuentran en un archivo txt dentro del ambiente virtual.
 ## Estructura 
 De interfaz 
 De narrativa
+
+![Logo](https://tse4.mm.bing.net/th/id/OIP.DU7u4z4TgUDFvpiQM84ktwHaDt?rs=1&pid=ImgDetMain&o=7&rm=3)
+
