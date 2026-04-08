@@ -9,7 +9,7 @@
 ###
 
 <p align="left">Ingeniera en Energias Renovables, una chica super linda, inteligente y empatica aaaaaaaa la persona más iconica del mundo</p>
-[@ampea-cloud](https://github.com/ampea-cloud)
+.[@ampea-cloud](https://github.com/ampea-cloud).
 
 ###
 - Andrea Amador [@ampea-cloud](https://github.com/ampea-cloud)
