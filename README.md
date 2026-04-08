@@ -1,8 +1,9 @@
 ## El equipo *Van der Waals* te da la bienvenida
-# Integrantes #incluir fotos
--Andrea Amador Pérez 
--Germán Alejandro Erreguín Ramírez
--Nadia Yerith Avila Martinez
+# Integrantes
+- Andrea Amador [@ampea-cloud](https://github.com/ampea-cloud)
+
+- Germán Erreguín [@errage](https://github.com/errage)
+- Yerith Avila [@nYerithAvila](https://github.com/nYerithAvila)
 # ODS elegido
 ODS 6: Agua Limpia y Saneamiento
 # Descripción breve del proyecto
