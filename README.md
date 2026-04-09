@@ -23,13 +23,32 @@ La idea central de nuestro proyecto consiste en acercar al usuario al avance del
 Para esto hicimos uso de herramientas de código abierto como Python, Quarto, Git, Visual Code Studio. Además utilizamos base de datos abiertos como: CONAGUA, Agenda 2030, Aqueduct Water Risk Atlas.
 
 # Coherencia narrativa
-Cada sección encontrarás
-Donde se resuelven las subpreguntas:
-1.
-2.
-3.
-4.
-5.
+Cada sección encontra
+
+En la sección 1 (Introducción) encontrarás un panorama inicial del uso que le damos al agua en varios ámbitos de nuestra vida, poniendo sobre la mesa la situación actual, desde donde parte nuestro storytelling respondiendo preguntas como:
+
+1.1 ¿Cuál es la huella hídrica aproximada de mi estilo de vida?
+1.2 ¿Qué impacto tengo ante este objetivo?
+
+Esta sección se sostiene con datos obtenidos a través de calculadoras hídricas 
+
+En la sección 2 (Acción ascendente) se presentarán algunas consecuencias que se están teniendo debido al consumo hídrico mencionado en la sección anterior, además de los efectos del cambio climático. Se presentan panoramas ambientales en la reducción de ecosistemas, desabasto y fenómenos naturales extremos; presentando las problemáticas a las que nos enfrentamos y generando preocupación ante la audiencia. Se responderá la pregunta:
+
+2.1 ¿Cómo ha afectado este estilo de vida a las reservas de agua y sus ecosistemas?
+
+Se usarán datos del INEGI y de la CONAGUA sobre áreas de ecosistemás y cuerpos de agua, situación hídrica en embalses y acuíferos. Atacando directamente el ODS 6.6
+
+En la sección 3 (Climax) te presentaremos una prospección de la situación en la que nos encontraremos si no hacemos nada al respecto. Se generará tensión a través de un reloj de cuenta regresiva para visibilizar la escasez de agua y propiciar el punto de inflexión en la historia para hacer que la persona usuaria se direccione con acciones en pro del ODS6. La pregunta:
+
+3.1 ¿Qué pasará si seguimos con esta tendencia?
+
+En la sección 4 (Acción descendente) se presentarán a través de un análisis previo, corrientes de soluciones que señalen el mejoramiento de problemas específicos. Generando un sentimiento de lucha y acción y respondiendo a la pregunta:
+
+4.1 ¿Qué podemos hacer al respecto
+
+Finalmente la sección 5 (Desenlace) se centrará en analizar acciones que producen el cambio y cómo pueden mejorar nuestra situación hídrica, nuestra relación con el agua y los demás sistemas ambientales del planeta. Dando alivio y esperanza para el cumplimiento del ODS6. Se responderá la pregunta:
+
+5.1 ¿Cómo impactan estas soluciones al cumplimiento del ODS6?
 
 # Metadatos de los datos
 Los metadatos se encuentran en un archivo txt dentro del ambiente virtual.
