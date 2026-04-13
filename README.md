@@ -40,7 +40,7 @@ Archivo READ.ME:
 Archivo 
 
 
-# Metadatos de los datos
+# Metadatos
 Los metadatos se encuentran en un archivo txt.
 
 # Potencial de impacto
