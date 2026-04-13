@@ -50,14 +50,29 @@ Finalmente la sección 5 (Desenlace) se centrará en analizar acciones que produ
 
 5.1 ¿Cómo impactan estas soluciones al cumplimiento del ODS6?
 
+
+## Estructura del proyecto
+
+| Sección | Nombre | Descripción | Preguntas clave | Fuentes / Enfoque |
+|--------|--------|------------|----------------|------------------|
+| 1 | **Introducción** | Presenta un panorama inicial del uso del agua en distintos ámbitos de la vida cotidiana, estableciendo el contexto del storytelling. | _¿Cuál es la huella hídrica aproximada de mi estilo de vida?_ <br> _¿Qué impacto tengo ante este objetivo?_| Datos obtenidos a través de calculadoras hídricas |
+| 2 | **Acción ascendente** | Expone las consecuencias del consumo hídrico y del cambio climático: reducción de ecosistemas, desabasto y fenómenos extremos. | _¿Cómo ha afectado este estilo de vida a las reservas de agua y sus ecosistemas?_| Datos del INEGI y CONAGUA sobre ecosistemas, cuerpos de agua, embalses y acuíferos. Enfoque en el ODS 6.6 |
+| 3 | **Clímax** | Describe la situación actual de bancarota en la que nos enfrentamos y proyecta un escenario futuro si no se toman acciones, generando tensión mediante una cuenta regresiva que visibiliza la escasez de agua. | _¿Qué pasará si seguimos con esta tendencia?_ <br> _¿Qué es la bancarrota hidrica?_ | Visualización prospectiva y narrativa de urgencia |
+| 4 | **Acción descendente** | Presenta soluciones basadas en análisis previo, enfocadas en atender problemáticas específicas. Promueve acción y participación. | _¿Qué podemos hacer al respecto?_ <br> _¿Cómo es que las comunidades se han organizado para atender la problematica hídrica?_  | Propuestas y estrategias de solución |
+| 5 | **Desenlace** | Analiza el impacto de las acciones propuestas y cómo contribuyen a mejorar la situación hídrica y la relación con el entorno. Genera esperanza. | _¿Cómo impactan estas soluciones al cumplimiento del ODS 6?_ | Evaluación de impacto y sostenibilidad |
+
 # Metadatos de los datos
 Los metadatos se encuentran en un archivo txt dentro del ambiente virtual.
 
 # Potencial de impacto
 
-# Estructura 
-De interfaz 
-De narrativa
+A lo largo del tiempo, se ha reconocido que México enfrenta una crisis hídrica. No obstante, de acuerdo con el Global Water Bankruptcy Report 2026, este concepto resulta insuficiente para describir la magnitud del problema actual. Hoy hablamos de bancarrota hídrica, un estado en el que los sistemas hídricos han sobreexplotado su capital natural, rebasando puntos críticos de inflexión y comprometiendo su sostenibilidad a largo plazo.
+
+En este contexto, nuestro tablero busca representar de manera clara e informada este nuevo panorama, facilitando la comprensión de una problemática compleja y urgente. Más allá de visibilizar la situación, el proyecto tiene como propósito evidenciar que la magnitud del desafío exige un enfoque colaborativo, en el que tanto las acciones individuales como colectivas desempeñan un papel fundamental en su mitigación.
+
+Asimismo, se pretende destacar que existen múltiples áreas de oportunidad para incidir positivamente, promoviendo una toma de decisiones más consciente, informada y orientada hacia la sostenibilidad del recurso hídrico.
+
+# Estructura de interfaz De narrativa
 
 ![Logo](https://tse4.mm.bing.net/th/id/OIP.DU7u4z4TgUDFvpiQM84ktwHaDt?rs=1&pid=ImgDetMain&o=7&rm=3)
 
