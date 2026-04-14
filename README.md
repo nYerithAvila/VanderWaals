@@ -48,6 +48,8 @@ Para cumplir con nuestro objetivo hicimos uso de herramientas de código abierto
 
 **Archivo LICENSE**: La licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0) permite copiar, redistribuir, adaptar y transformar material, incluso comercialmente, siempre que se dé crédito adecuado al autor, se enlace a la licencia y se indiquen cambios.
 
+**Archivo ai-log.md**: Declaratoria de uso de IA
+
 **Archivo .gitignore**: Tiene como función principal evitar que los archivos de dependencias y configuración local se suban al repositorio remoto.
 
 **Archivo python-version**: define qué versión específica de Python debe utilizarse en ese directorio.
