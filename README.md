@@ -57,8 +57,9 @@ Para descripciòn màs detallada de narrativa visita nuestra presentaciòn de [C
 **Archivo uv.lock**: Un gestor de paquetes rápido escrito en Rust), ya que garantiza la reproducibilidad exacta de las dependencias.
 
 # Metadatos
-Los metadatos se encuentran en un archivo txt.
-
+| Nombre de dataframe | fecha de descarga | Descripción de variables| Justificaciòn de elecciòn |Fuente|
+|--------|--------|------------|----------------|------------------|
+|clean_bau_ws_30_50_80.csv| 02.04.2026 | **location_name**: Nombre de estado, **bau30_ws_x_r**: valor "crudo" de indicador estrès hìdirco para 2030 escensario Buisness as usual (BAU), **bau50_ws_x_r**: valor crudo de indicador estrès hìdirco para 2050 escensario Buisness as usual (BAU), **bau80_ws_x_r**: valor crudo de indicador estrès hìdirco para 2080 escensario Buisness as usual (BAU)|Los datos fueron obtenidos de un Atlas oficial de Riesgo Hìdrico, ademàs de las visualizaciones sòlidas de mapas incluye un [pdf de metodologìa de indicadores]([https://www.wri.org/research/aqueduct-global-maps-21-indicators](https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators?utm_source=chatgpt.com) y registro de los datos que nos permitiò tener una nociòn clara de como manejarlos de manera òptima. Ademàs es ampliamente utilizado y citado dentro de reportes de la [ONU] (https://unu.edu/inweh/collection/global-water-bankruptcy) cuando se pretende contextualizar el tema de ODS6 Agua limpia y saneamiento.|S. Kuzma et al., “Aqueduct 4.0: Updated Decision-Relevant Global Water Risk Indicators,” World Resources Institute. https://www.wri.org/research/aqueduct-40-updated-decision-relevant-global-water-risk-indicators?auHash=74cRjEQPsH0NDpgT1NqIfNpqV-QpYNR4oiPo1HRhpGs|
 # Potencial de impacto
 A lo largo del tiempo, se ha reconocido que México enfrenta una crisis hídrica. No obstante, de acuerdo con el Global Water Bankruptcy Report 2026, este concepto resulta insuficiente para describir la magnitud del problema actual. Hoy hablamos de bancarrota hídrica, un estado en el que los sistemas hídricos han sobreexplotado su capital natural, rebasando puntos críticos de inflexión y comprometiendo su sostenibilidad a largo plazo.
 
