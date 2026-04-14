@@ -34,7 +34,7 @@ Para cumplir con nuestro objetivo hicimos uso de herramientas de código abierto
 | 3 | **Clímax** | Define y evidencía situación de bancarrota hídrica en México, proyectando escenario hasta el año 2080 con mismos hábitos de consumo hídrico| _¿Qué pasará si persistimos con nuestros hábitos de consumo?_ <br> _¿Qué es la bancarrota hidrica?_ | Datos obtenidos de Aqueduct Risk Atlas, Portal de datos abiertos|
 | 4 | **Acción descendente** | Presenta 4 propuestas de acción en las que el usuario puede participar para atender a rubros específicos de la problemática.| _Individualmente ¿Qué acciones específicas reducirían mi huella hídrica habitual?_ <br> _Colectivamente ¿Cómo es que las comunidades se han organizado para atender la problematica hídrica?_ <br> _Institucionalmente ¿Qué información tenemos acceso como ciudadanos? y Gubernamentalmente ¿Qué beneficios puntuales existen de invertir en seguridad hídrica?_ | Datos obtenidos de |
 | 5 | **Desenlace** | Analiza el impacto de las acciones propuestas y cómo contribuyen a mejorar la situación hídrica y la relación con el entorno. Genera esperanza. | _¿Cómo impactan estas soluciones al cumplimiento del ODS 6?_ | Evaluación de impacto y sostenibilidad |
-
+Para descripciòn màs detallada de narrativa visita nuestra presentaciòn de [CANVA](https://canva.link/zk4dku9btkrs1ak)
 ## Estructura del proyecto
 **Carpeta data**: Se encuentran los datos abiertos utilizados por cada integrante del equipo para la visualizaciòn de gràficas y posteriormente del tablero.
 
