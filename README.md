@@ -70,3 +70,6 @@ Asimismo, se pretende destacar que existen múltiples áreas de oportunidad para
 
 ![Logo](https://tse4.mm.bing.net/th/id/OIP.DU7u4z4TgUDFvpiQM84ktwHaDt?rs=1&pid=ImgDetMain&o=7&rm=3)
 
+# Nota antes de empezar: #
+Este proyecto nace del deseo de aportar, aunque sea de manera modesta, a una problemática tan compleja y urgente como la seguridad hídrica en México. Reconocemos que aún existen áreas de mejora que nos gustaría fortalecer en las siguientes etapas de este hackatón (como es el desarrollo pendiente de visualizaciones "004_¿Què acciones podemos tomar?" y "005_Nuestro Impacto en un futuro" de nuestra propuesta narrativa); sin embargo, esperamos que este trabajo sirva como punto de partida e inspiración para que más personas desarrollen sus propias propuestas, fomentando así un enfoque de soluciones verdaderamente interdisciplinarias.
+En el equipo Van der Waals creemos que, así como las fuerzas intermoleculares mantienen unidas las moléculas de agua, la organización y colaboración colectiva pueden generar vínculos sólidos capaces de impulsar acciones por el clima medibles, reproducibles y sustentables.
