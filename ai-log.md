@@ -1,4 +1,4 @@
-# <h1 align="center">DECLARATORIA DE USO DE IA PARA EL EQUIPO VANDERWAALS 💧⚡</h2>
+# <h1 align="center">DECLARATORIA DE USO DE IA PARA EL EQUIPO VANDERWAALS 🤖 </h2>
 ## Filosofia de uso 
 Al ser principiantes en el mundo de la programación usamos la IA para explicaciones generales, correccion de codigo y detalles relacionados a la programación. No usamos IA para definir la problematica o el ritmo de nuestra historia. 
 Nuestra frase es: 
