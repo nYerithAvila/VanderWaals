@@ -37,13 +37,21 @@ Para cumplir con nuestro objetivo hicimos uso de herramientas de código abierto
 
 ## Estructura del proyecto
 **Carpeta data**: Se encuentran los datos abiertos utilizados por cada integrante del equipo para la visualizaciòn de gràficas y posteriormente del tablero.
+
 **Carpeta dashboard**: Encontraràs en ella archivo .qmd que planea utilizar el equipo para integrar las diferentes etapas de visualizaciòn del tablero.
+
 **Carpeta notebooks**: Encontraràs archivos .ipynb donde los integrantes del equipo Van der Waals se han dedicado a analizar y limpiar datos abiertos para despuès codificar su visualizaciòn. Su nomenclatura "00X_Introducciòn" es alusiva a la etapa de narrativa que se pretende abordar, leer màs sobre cada tema abordado por etapa en secciòn "Coherencia Narrativa" del READ.ME
+
 **Archivo READ.ME**: Encontraràs integrantes del equipo, descripciòn general de pryecto,estructura, coherencia narrativa, metadatos y potencial de impacto.
-Archivo pyproject.toml: Encontraràs dependencias necesarias para reproducir el espacio de trabajo ""VanderWalls" en tu servidor local.
+
+**Archivo pyproject.toml**: Encontraràs dependencias necesarias para reproducir el espacio de trabajo ""VanderWalls" en tu servidor local.
+
 **Archivo LICENSE**: La licencia Creative Commons Atribución 4.0 Internacional (CC BY 4.0) permite copiar, redistribuir, adaptar y transformar material, incluso comercialmente, siempre que se dé crédito adecuado al autor, se enlace a la licencia y se indiquen cambios.
-**Archivo .gitignore**: Tiene como función principal evitar que los archivos de dependencias y configuración local se suban al repositorio remoto
+
+**Archivo .gitignore**: Tiene como función principal evitar que los archivos de dependencias y configuración local se suban al repositorio remoto.
+
 **Archivo python-version**: define qué versión específica de Python debe utilizarse en ese directorio.
+
 **Archivo uv.lock**: Un gestor de paquetes rápido escrito en Rust), ya que garantiza la reproducibilidad exacta de las dependencias.
 
 # Metadatos
