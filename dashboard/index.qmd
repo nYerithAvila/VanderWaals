@@ -1,0 +1,140 @@
+---
+title: "ODS 6: Agua limpia y saneamiento"
+author: "Van der Waals"
+format: 
+  dashboard:
+    theme: [litera, custom.scss]
+    orientation: columns
+logo: Images/ODS6Logo.png
+---
+
+# Acción ascendente
+
+## Column {width="20%"}
+
+::: {.valuebox color="white"}
+
+Aumento en las sequías en México
+:::
+
+::: {.valuebox color="white"}
+
+Disminución en el área de ecosistemas captadores de lluvia
+:::
+
+::: {.valuebox color="white"}
+
+Área de bosques consumida por incendios 
+:::
+
+::: {.valuebox color="white"}
+
+Ecosistemas perdidos o extintos (Ej. Lago de Cuitzeo)
+:::
+
+## Column {width="80%"}
+
+### Row {height="73%"}
+
+#### {width="65%"}
+
+```{python}
+#| title: "Acceso al agua potable en México por estado"
+#| message: false
+#| warning: false
+
+import pandas as pd
+import plotly.express as px
+from IPython.display import display # Importación clave
+
+# 1. Preparación de datos
+mapeo_mx = {
+    '01': 'MX-AGU', '02': 'MX-BCN', '03': 'MX-BCS', '04': 'MX-CAM', '05': 'MX-COA',
+    '06': 'MX-COL', '07': 'MX-CHP', '08': 'MX-CHH', '09': 'MX-CMX', '10': 'MX-DUR',
+    '11': 'MX-GUA', '12': 'MX-GRO', '13': 'MX-HID', '14': 'MX-JAL', '15': 'MX-MEX',
+    '16': 'MX-MIC', '17': 'MX-MOR', '18': 'MX-NAY', '19': 'MX-NLE', '20': 'MX-OAX',
+    '21': 'MX-PUE', '22': 'MX-QUE', '23': 'MX-ROO', '24': 'MX-SLP', '25': 'MX-SIN',
+    '26': 'MX-SON', '27': 'MX-TAB', '28': 'MX-TAM', '29': 'MX-TLA', '30': 'MX-VER',
+    '31': 'MX-YUC', '32': 'MX-ZAC'
+}
+
+ruta = 'data/_6_1_1_c_sh_es.csv'
+df = pd.read_csv(ruta)
+df.columns = ['Periodo', 'cvegeo', 'Entidad', 'Proporcion_agua', 'Extra']
+
+df = df[df['cvegeo'].astype(str) != '00'].copy()
+df['cvegeo_iso'] = df['cvegeo'].astype(str).str.zfill(2).map(mapeo_mx)
+
+repo_url = 'https://raw.githubusercontent.com/angelnmara/geojson/master/mexicoHigh.json'
+
+# 2. Creación del mapa
+fig = px.choropleth(
+    data_frame=df,
+    geojson=repo_url,
+    locations='cvegeo_iso',
+    featureidkey='properties.id',
+    color='Proporcion_agua',
+    animation_frame='Periodo',
+    range_color=[df['Proporcion_agua'].min(), df['Proporcion_agua'].max()],
+    color_continuous_scale="Blues",
+    labels={'Proporcion_agua': '% con Acceso', 'Periodo': 'Año'},
+    scope='north america'
+)
+
+# 3.
+_ = fig.update_geos(fitbounds="locations", visible=False)
+_ = fig.update_layout(margin={"r":0, "t":0, "l":0, "b":0})
+
+
+display(fig);
+```
+
+#### {width="35%"}
+
+```{python}
+#| title: "Lagos"
+
+print("Mapa de el área de rios y lagos en México a lo largo de el tiempo para visibilizar su disminución. ")
+```
+
+```{python}
+#| title: "Lluvias"
+
+print("Mapa de lluvias en México a lo lardo de el tiepo para visibilizar el impacto de el cambio climático en las precipitaciones.")
+```
+
+```{python}
+#| title: "Acuíferos"
+
+print("Mapa de el estrés hídrico que sufren los acuíferos en México.")
+```
+
+### Row {height="27%"}
+
+::: {.card title="Importancia de los ecosistemas en el ciclo del agua"}
+
+::: {.panel-tabset}
+
+## 1. Ciclo Corto
+**¿Sabías que el 65% del agua de lluvia proviene de los mismos ecosistemas terrestres?**
+A través de la evapotranspiración, los bosques devuelven humedad a la atmósfera, creando nubes que generan lluvia localmente. Sin árboles, el ciclo se rompe.
+
+## 2. Humedales
+Los humedales funcionan como "esponjas" naturales. 
+* Filtran contaminantes del agua.
+* Recargan los acuíferos subterráneos.
+* Mitigan inundaciones al absorber excedentes de tormentas.
+
+## 3. Bosques de Montaña
+Son los verdaderos "captores de nubes". Su vegetación atrapa la niebla y la humedad del aire, transformándola en escurrimientos que alimentan los ríos que llegan a las ciudades.
+
+## 4. Manglares
+Son la primera línea de defensa en las costas. Evitan la intrusión salina (que el mar se meta al agua dulce de los pozos) y mantienen el equilibrio hídrico en zonas tropicales.
+
+## 5. El Impacto Social
+La pérdida de estos ecosistemas no solo afecta a la naturaleza, sino que encarece el acceso al agua potable y aumenta el riesgo de sequías severas en zonas urbanas.
+
+:::
+
+:::
+
