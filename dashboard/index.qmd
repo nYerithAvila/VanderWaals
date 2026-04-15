@@ -5,7 +5,7 @@ format:
   dashboard:
     theme: [litera, custom.scss]
     orientation: columns
-logo: Images/ODS6Logo.png
+logo: ../Images/ODS6Logo.png
 ---
 
 # Acción ascendente
@@ -58,7 +58,7 @@ mapeo_mx = {
     '31': 'MX-YUC', '32': 'MX-ZAC'
 }
 
-ruta = 'data/_6_1_1_c_sh_es.csv'
+ruta = '../data/_6_1_1_c_sh_es.csv'
 df = pd.read_csv(ruta)
 df.columns = ['Periodo', 'cvegeo', 'Entidad', 'Proporcion_agua', 'Extra']
 
